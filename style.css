@@ -116,7 +116,7 @@ li{
 }
 
 .text{
-    margin-left: 30px;
+    margin-left: 150px;
     margin-top: 400px;
    
 }
@@ -130,7 +130,74 @@ li{
     margin-bottom: 5px;
     
 }
-
-.text span{
+/* ------------Card------------- */
+.card-img{
+    width: 400px;
+    height: 100vh;
+    background-image: url(imgs/image\ copy.png);
+    background-size: cover;
+    padding-top: 50px;
     
+}
+
+.card-text{
+    width: 400px;
+    height: 100vh;
+    padding-top: 50px;
+    align-content: center;
+    
+}
+
+.subheading{
+    color: #fd4c82;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: 300px;
+    height: 70px;
+   
+    
+    
+}
+
+.icon  .fa-stethoscope{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #fd4c82;
+    color: white;
+    
+}
+
+.icon p{
+    margin-left: 20px;
+    font-weight: 900;
+}
+/* ---------------number-------------- */
+.container-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(189, 187, 187);
+    border: 2px solid greenyellow;
+}
+
+.number{
+    text-align: center;
+    display:block;
 }
