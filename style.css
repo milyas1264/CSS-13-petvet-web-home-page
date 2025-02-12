@@ -26,7 +26,8 @@ header{
 .fa-facebook{
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: aqua;
+    color: brown;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -35,6 +36,7 @@ header{
     width: 30px;
     height: 30px;
     background-color: #fd4c82;
+    color: aqua;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -42,7 +44,8 @@ header{
 .fa-instagram{
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: #fd4c82;
+    color: aquamarine;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -50,7 +53,8 @@ header{
 .fa-dribbble{
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: aqua;
+    color: #fd4c82;
     border-radius: 50%;
     text-align: center;
     align-content: center;
