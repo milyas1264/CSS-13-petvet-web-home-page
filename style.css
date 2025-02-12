@@ -26,7 +26,7 @@ header{
 .fa-facebook{
     width: 30px;
     height: 30px;
-    background-color: #fd4c82;
+    background-color: white;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -34,7 +34,7 @@ header{
 .fa-twitter{
     width: 30px;
     height: 30px;
-    background-color: gold;
+    background-color: #fd4c82;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -42,7 +42,7 @@ header{
 .fa-instagram{
     width: 30px;
     height: 30px;
-    background-color: gold;
+    background-color: white;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -50,7 +50,7 @@ header{
 .fa-dribbble{
     width: 30px;
     height: 30px;
-    background-color: gold;
+    background-color: white;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -93,6 +93,23 @@ header{
 }
 li a{
     margin-right: 50px;
+}
+
+li{
+
+    border: 2px solid transparent;
+    
+    
+}
+ .navitem li a:hover{
+    color: #fd4c82;
+    border: 3px solid greenyellow;
+}
+
+.containernav{
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-link{
@@ -170,13 +187,14 @@ li{
 }
 
 .icon  .fa-stethoscope{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     align-content: center;
     border-radius: 10px;
     background-color: #fd4c82;
     color: white;
+    font-size: 20px;
     
 }
 
@@ -187,17 +205,28 @@ li{
 /* ---------------number-------------- */
 .container-number{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 20px;
-    width: 75%;
+    width: 73%;
     height: 100px;
     margin: auto;
     background-color: rgb(189, 187, 187);
-    border: 2px solid greenyellow;
+    border: 3px groove greenyellow;
 }
 
 .number{
     text-align: center;
     display:block;
+    
 }
+strong{
+    color: #fd4c82;
+    font-size: 30px;
+}
+
+ span{
+    
+    color: #11110066;
+}
+
