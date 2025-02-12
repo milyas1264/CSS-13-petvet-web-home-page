@@ -35,8 +35,8 @@ header{
 .fa-twitter{
     width: 30px;
     height: 30px;
-    background-color: #fd4c82;
-    color: aqua;
+    background-color: aqua;
+    color: yellow;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -44,8 +44,8 @@ header{
 .fa-instagram{
     width: 30px;
     height: 30px;
-    background-color: #fd4c82;
-    color: aquamarine;
+    background-color: aqua;
+    color: yellow;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -121,11 +121,12 @@ li{
     height: 100px;
     border-radius: 5px;
     background-color: #fd4c82;
+    
 }
 
 .nav-link li {
-    margin-left: 15px;
-    margin-top: 20px;
+    padding: 15px 20px;
+    
     
 }
 
